@@ -1,0 +1,113 @@
+:root{
+    --tet-clr: linear-gradient(#45deg,#ff53f4,#00ff62,#ad41ff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.hero{
+    min-height: 100vh;
+    background-image: url(download\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 98%;
+    margin: auto;
+    border-bottom:2px solid #fff;
+    padding: 5px;
+}
+.logo{
+    width: 100px;
+}
+nav ul{
+    display: flex;
+    align-items:center
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: pink;
+    border-bottom: 2px solid pink;
+    text-shadow: 0 0 10px #f94ce6;
+}
+nav button{
+    padding: 11px 35px;
+    background: transparent;
+    border: 2px solid #fff;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+nav button:hover{
+    border: 2px solid #f94ce6;
+    color: #f94ce6;
+    scale: .8;
+    box-sizing: 0 0 2px #f94ce6;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 90px;
+}
+h2{
+   color: #fff;
+   font-size: 52px;
+   text-transform: uppercase;
+   font-weight: 800;
+}
+h2 span{
+    background: var(--tet-clr);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: url(go);
+}
+p{
+    font-size: 11px;
+    margin-top: 10px;
+    color:#fff;
+}
+.content button{
+    padding: 12px 45px;
+    margin-top: 50px;
+    background: lightpink;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 3s;
+}
+.content button:hover{
+    scale: .8;
+}
+.content button.know_more{
+    border: 2px solid #fff;
+    background: transparent;
+    color:  #fff;
+    margin-left: 25px;
+}
+.content button.know_more:hover{
+    border: 2px solid #f94ce6;
+    color: #f94ce6;
+    scale: .8;
+    box-sizing: 0 0 2px #f94ce6;
+}
